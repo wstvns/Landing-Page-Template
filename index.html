@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Negócio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-placeholder.png" alt="Logo da Empresa" id="logo-img">
+                <h1 id="company-name">Nome do Negócio</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato" class="btn-destaque">Contato</a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="inicio" class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2 id="banner-title">Título Principal do Seu Negócio</h2>
+                <p id="banner-subtitle">Uma breve descrição sobre o que sua empresa oferece e como pode ajudar seus clientes.</p>
+                <div class="banner-buttons">
+                    <a href="#contato" class="btn btn-primary" id="cta-principal">Fale Conosco</a>
+                    <a href="#servicos" class="btn btn-secondary" id="cta-secundario">Nossos Serviços</a>
+                </div>
+            </div>
+            <div class="banner-image">
+                <img src="images/banner-placeholder.jpg" alt="Imagem Principal" id="banner-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nós</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <img src="images/about-placeholder.jpg" alt="Sobre Nós" id="about-img">
+                </div>
+                <div class="sobre-text">
+                    <h3 id="about-title">Nossa História</h3>
+                    <p id="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="feature-1">Característica 1</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="feature-2">Característica 2</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span id="feature-3">Característica 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <div class="divider"></div>
+                <p class="section-description" id="services-description">Oferecemos soluções completas para atender todas as suas necessidades.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star" id="service-icon-1"></i>
+                    </div>
+                    <h3 id="service-title-1">Serviço 1</h3>
+                    <p id="service-desc-1">Descrição detalhada do serviço oferecido e seus benefícios para o cliente.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart" id="service-icon-2"></i>
+                    </div>
+                    <h3 id="service-title-2">Serviço 2</h3>
+                    <p id="service-desc-2">Descrição detalhada do serviço oferecido e seus benefícios para o cliente.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem" id="service-icon-3"></i>
+                    </div>
+                    <h3 id="service-title-3">Serviço 3</h3>
+                    <p id="service-desc-3">Descrição detalhada do serviço oferecido e seus benefícios para o cliente.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog" id="service-icon-4"></i>
+                    </div>
+                    <h3 id="service-title-4">Serviço 4</h3>
+                    <p id="service-desc-4">Descrição detalhada do serviço oferecido e seus benefícios para o cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeria</h2>
+                <div class="divider"></div>
+                <p class="section-description" id="gallery-description">Confira alguns dos nossos trabalhos e projetos realizados.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-1.jpg" alt="Imagem da Galeria 1" id="gallery-img-1">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-1">Projeto 1</h4>
+                        <p id="gallery-desc-1">Breve descrição do projeto</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-2.jpg" alt="Imagem da Galeria 2" id="gallery-img-2">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-2">Projeto 2</h4>
+                        <p id="gallery-desc-2">Breve descrição do projeto</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-3.jpg" alt="Imagem da Galeria 3" id="gallery-img-3">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-3">Projeto 3</h4>
+                        <p id="gallery-desc-3">Breve descrição do projeto</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.jpg" alt="Imagem da Galeria 4" id="gallery-img-4">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-4">Projeto 4</h4>
+                        <p id="gallery-desc-4">Breve descrição do projeto</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.jpg" alt="Imagem da Galeria 5" id="gallery-img-5">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-5">Projeto 5</h4>
+                        <p id="gallery-desc-5">Breve descrição do projeto</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-6.jpg" alt="Imagem da Galeria 6" id="gallery-img-6">
+                    <div class="gallery-overlay">
+                        <h4 id="gallery-title-6">Projeto 6</h4>
+                        <p id="gallery-desc-6">Breve descrição do projeto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Números -->
+    <section class="numeros">
+        <div class="container">
+            <div class="numeros-grid">
+                <div class="numero-item">
+                    <i class="fas fa-users"></i>
+                    <h3 id="counter-1">500+</h3>
+                    <p id="counter-label-1">Clientes Satisfeitos</p>
+                </div>
+                <div class="numero-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3 id="counter-2">150+</h3>
+                    <p id="counter-label-2">Projetos Concluídos</p>
+                </div>
+                <div class="numero-item">
+                    <i class="fas fa-trophy"></i>
+                    <h3 id="counter-3">25+</h3>
+                    <p id="counter-label-3">Prêmios Recebidos</p>
+                </div>
+                <div class="numero-item">
+                    <i class="fas fa-clock"></i>
+                    <h3 id="counter-4">10+</h3>
+                    <p id="counter-label-4">Anos de Experiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Depoimentos</h2>
+                <div class="divider"></div>
+                <p class="section-description" id="testimonials-description">Veja o que nossos clientes dizem sobre nós.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p id="testimonial-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.jpg" alt="Cliente 1" id="testimonial-img-1">
+                            <div class="author-info">
+                                <h4 id="testimonial-name-1">Nome do Cliente 1</h4>
+                                <p id="testimonial-position-1">Cargo / Empresa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p id="testimonial-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.jpg" alt="Cliente 2" id="testimonial-img-2">
+                            <div class="author-info">
+                                <h4 id="testimonial-name-2">Nome do Cliente 2</h4>
+                                <p id="testimonial-position-2">Cargo / Empresa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p id="testimonial-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.jpg" alt="Cliente 3" id="testimonial-img-3">
+                            <div class="author-info">
+                                <h4 id="testimonial-name-3">Nome do Cliente 3</h4>
+                                <p id="testimonial-position-3">Cargo / Empresa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 id="cta-title">Pronto para começar seu projeto?</h2>
+                <p id="cta-description">Entre em contato conosco hoje mesmo e descubra como podemos ajudar a transformar suas ideias em realidade.</p>
+                <a href="#contato" class="btn btn-primary" id="cta-button">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="divider"></div>
+                <p class="section-description" id="contact-description">Estamos prontos para atender você e responder a todas as suas dúvidas.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p id="contact-address">Av. Exemplo, 123 - Bairro, Cidade - UF</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p id="contact-phone">(00) 12345-6789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p id="contact-email">contato@seudominio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p id="contact-hours">Segunda a Sexta: 9h às 18h</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-icons">
+                            <a href="#" id="social-facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" id="social-instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" id="social-twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" id="social-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" id="social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa">
+        <div id="map">
+            <!-- Local para inserir o mapa de localização via JavaScript -->
+            <img src="images/map-placeholder.jpg" alt="Mapa" id="map-img">
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-placeholder.png" alt="Logo da Empresa" id="footer-logo-img">
+                    <h3 id="footer-company-name">Nome do Negócio</h3>
+                    <p id="footer-description">Breve descrição sobre a empresa e sua missão.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Inscreva-se para receber nossas novidades e ofertas exclusivas.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit" class="btn btn-primary">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="copyright">&copy; 2025 Nome do Negócio. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" id="privacy-policy">Política de Privacidade</a>
+                    <a href="#" id="terms-of-service">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="#" class="whatsapp-float" id="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+</body>
+</html>
